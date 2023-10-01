@@ -39,6 +39,6 @@ while not game_over:
       print("You won!")
     elif lives == 0:
       game_over = True
-      print("You lost!")
-    printed_word = f"The word is: {' '.join(display_word)}\n"
+      print(f"You lost! The word was: {chosen_word}")
+    printed_word = f"Your guess is: {' '.join(display_word)}\n"
     print(printed_word)
